@@ -1,4 +1,4 @@
-General: Please create a DB and feed initial records using SQL file, added in root directory. 
+General: Please create a DB and feed initial records using SQL files, added in DBScript directory. 
 
 API Solution:
 This Api has three endpoints
@@ -30,7 +30,6 @@ Required storage account (Cloud or Local Storage Emulator) as it uses Blob and T
 	
 Before start the Function (on cloud enoinment or on debug mode) please modify setting file
    ...\SecondTaskWeather\SecondTaskWeather\local.settings.json
-* Storage Endpoints Connection (AzureWebJobsStorage) 
 * Database Connection string (DataBaseConnectionString)
 	
 
